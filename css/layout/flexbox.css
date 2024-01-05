@@ -1,0 +1,15 @@
+/* flexbox.css */
+
+/* Flexbox Styles */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: lightblue;
+}

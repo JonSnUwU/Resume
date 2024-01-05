@@ -1,0 +1,29 @@
+/* footer.css */
+
+.footer {
+    width: 100%;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  .contact-info {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-details {
+    display: flex; /* Display children horizontally */
+    justify-content: center; /* Center horizontally */
+    flex-wrap: wrap; /* Wrap items if they exceed container width */
+  }
+  
+  .contact-details p {
+    font-size: 18px;
+    margin: 5px 20px; /* Adjust spacing between items */
+  }

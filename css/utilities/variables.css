@@ -1,0 +1,24 @@
+/* variables.css */
+
+/* Colors */
+:root {
+    --primary-color: #3498db; /* Adjust to your primary color */
+    --secondary-color: #2ecc71; /* Adjust to your secondary color */
+    --accent-color: #e74c3c; /* Adjust to your accent color */
+    /* Additional colors or variables if needed */
+}
+
+/* Fonts */
+:root {
+    --font-family-primary: 'Roboto', sans-serif; /* Adjust to your primary font */
+    --font-family-secondary: 'Arial', sans-serif; /* Adjust to your secondary font */
+    /* Additional font families or variables if needed */
+}
+
+/* Spacing and Sizing */
+:root {
+    --base-spacing: 8px; /* Adjust base spacing value */
+    --header-height: 60px; /* Adjust header height */
+    --footer-height: 40px; /* Adjust footer height */
+    /* Additional spacing or sizing variables if needed */
+}

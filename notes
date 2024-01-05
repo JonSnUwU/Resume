@@ -1,0 +1,91 @@
+project-template/
+│
+├── styles/
+│   ├── base/
+│   │   ├── reset.css
+│   │   └── typography.css
+│   │
+│   ├── layout/
+│   │   ├── grid.css
+│   │   └── flexbox.css
+│   │
+│   ├── components/
+│   │   ├── header.css
+│   │   ├── navigation.css
+│   │   └── footer.css
+│   │
+│   ├── utilities/
+│   │   ├── variables.css
+│   │   ├── mixins.css
+│   │   └── helpers.css
+│   │
+│   └── main.css
+│
+├── js/
+│   ├── main.js
+│   └── libraries/
+│       └── jquery.min.js
+│
+├── images/
+│   └── placeholder.jpg
+│
+├── fonts/
+│   └── (font files if applicable)
+│
+├── index.html
+├── about.html
+├── contact.html
+│
+├── README.md
+└── LICENSE
+
+
+Cross-Site Scripting (XSS):
+
+Description: Attackers inject malicious scripts into web pages viewed by other users, compromising their data or executing unintended actions.
+Types: Stored XSS, Reflected XSS, DOM-based XSS.
+
+SQL Injection (SQLi):
+
+Description: Attackers inject SQL queries through input fields to manipulate or retrieve data from the database, potentially leading to data leaks or unauthorized access.
+Prevention: Use parameterized queries or prepared statements.
+
+Cross-Site Request Forgery (CSRF):
+
+Description: Exploits the trust a web application has in a user's browser by executing unwanted actions on behalf of the user.
+Prevention: Use anti-CSRF tokens to validate requests.
+
+Insecure Deserialization:
+
+Description: Malicious manipulation of serialized objects, leading to remote code execution, security bypass, or data tampering.
+Prevention: Validate and sanitize serialized data.
+
+Sensitive Data Exposure:
+
+Description: Failure to protect sensitive data (like passwords, credit card details) properly, leading to potential theft or exposure.
+Prevention: Encrypt sensitive data, use secure transmission protocols (HTTPS), and avoid storing unnecessary sensitive information.
+
+Security Misconfigurations:
+
+Description: Improperly configured servers, frameworks, or applications that can expose sensitive information or vulnerabilities.
+Prevention: Regularly update software, apply least privilege principles, and follow security best practices.
+
+Broken Authentication:
+
+Description: Weaknesses in authentication mechanisms, such as poor password policies, session management flaws, or exposed credentials.
+Prevention: Implement strong password policies, multi-factor authentication, and secure session handling.
+
+XML External Entity (XXE):
+
+Description: Exploits vulnerable XML processors, allowing attackers to read sensitive files, execute remote requests, or perform denial-of-service attacks.
+Prevention: Disable XML external entity parsing or use safe parsers.
+
+Unvalidated Redirects and Forwards:
+
+Description: Attackers manipulate unvalidated input to redirect users to malicious websites or phishing pages.
+Prevention: Avoid using user-controlled input for redirection; validate and sanitize input.
+
+Security Headers Misconfiguration:
+
+Description: Improperly configured security headers or missing security-related HTTP headers that expose the application to various attacks.
+Prevention: Set appropriate security headers to enhance web application security.

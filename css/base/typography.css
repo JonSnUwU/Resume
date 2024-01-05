@@ -1,0 +1,39 @@
+/* typography.css */
+
+/* Body Text */
+body {
+    font-family: 'Arial', sans-serif; /* Default font family */
+    font-size: 16px; /* Default font size */
+    line-height: 1.6; /* Default line height */
+}
+
+/* Headings */
+h1 {
+    font-size: 2.5em; /* Adjust heading 1 font size */
+    margin-bottom: 0.5em; /* Adjust spacing */
+}
+
+h2 {
+    font-size: 2em; /* Adjust heading 2 font size */
+    margin-bottom: 0.4em; /* Adjust spacing */
+}
+
+h3 {
+    font-size: 1.8em; /* Adjust heading 3 font size */
+    margin-bottom: 0.3em; /* Adjust spacing */
+}
+
+/* Other Text Styles */
+p {
+    margin-bottom: 1em; /* Adjust paragraph spacing */
+}
+
+/* Links */
+a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}

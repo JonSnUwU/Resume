@@ -1,0 +1,99 @@
+/* Styles for the #about section */
+#about {
+    display: block;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 49px;
+    margin-top: -20px;
+}
+.about-background{
+    position: relative;
+    background-color: #996633;
+}
+.about-background::after {
+    content: "";
+    position: absolute;
+    top: 100%; /* Position it at the bottom of the navigation menu */
+    left: 0;
+    width: 100%;
+    height: 40px; /* Height of the border */
+    background-color: #996633;
+}
+
+.about-content {
+    color: #fff;
+    display: inline-flexbox;
+    flex-direction: column;
+    position: relative;
+    justify-content: center; /* Center the content horizontally */
+    max-width: 800px; /* Optional: Set a maximum width for the about section */
+    margin: 0 auto; /* Center the entire section */
+}
+.details{
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+/* Styles for the main headings */
+#about h2 {
+    margin-top: 20px;
+    padding-top: 20px;
+    font-size: 32px; /* Larger font size for main headings */
+    margin-bottom: 20px; /* Space between headings and content */
+}
+
+/* Styles for the paragraph content */
+#about p {
+    font-size: 18px; /* Font size for paragraphs */
+    line-height: 1.6; /* Line height for better readability */
+}
+
+/* Styles for the list of skills */
+#about ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+}
+
+.skills-section {
+    display: inline-flexbox;
+    width: 100%;
+    max-width: 800px; /* Optional: Set a maximum width for the section */
+    margin: 100px auto; /* Center the section horizontally */
+    text-align: left; /* Align text content in the center */
+    color: #fff;
+}
+
+.skills-content {
+    color: #fff;
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center; /* Center the content horizontally */
+}
+.skills {
+    border: 3px solid #ccc; /* Border styling for the entire skills-list */
+    padding: 20px; /* Add padding for spacing within the skills-list */
+    margin: 20px 0; /* Add margin to create space around the skills-list */
+    /* Add other styles as needed */
+}
+.experience-section {
+    display: inline-flexbox;
+    width: 100%;
+    max-width: 800px; /* Optional: Set a maximum width for the section */
+    margin: 100px auto; /* Center the section horizontally */
+    text-align: left; /* Align text content in the center */
+    color: #fff;
+}
+
+.experience-content {
+    color: #fff;
+    display: inline;
+    position: relative;
+    justify-content: center; /* Center the content horizontally */
+}
+.section-divider {
+    border: none;
+    height: 17px;
+    background-color: #fff; /* Color of the divider line */
+    margin: -9px 0; /* Adjust margin for space above and below the line */
+}

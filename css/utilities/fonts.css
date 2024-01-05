@@ -1,0 +1,21 @@
+/* fonts.css */
+
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Apply Font Family */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Specific Elements */
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    /* Additional styles for headers if needed */
+}
+
+/* Apply Different Weight/Style */
+h1 {
+    font-weight: 700;
+    /* Other styles */
+}
